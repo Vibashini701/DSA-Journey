@@ -1,0 +1,10 @@
+class Solution {
+  public:
+    void printNumbers(int n) {
+        if(n==0){
+            return;
+        }
+        cout<<n<<"\n";
+        printNumbers(n-1);
+    }
+};
